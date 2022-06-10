@@ -5,6 +5,22 @@
   text-align: left;
   margin: 10px;
 }
+.flex-container {
+  display: flex;
+}
+.flex-child {
+  flex: 1;
+  margin: 10px;
+}
+.artist {
+  text-decoration: none;
+  transition: color 0.5s;
+  transition: border-bottom 1s;
+}
+.artist:hover {
+  color: grey;
+  border-bottom: 1px solid black;
+}
 
 /* Popular Artists Section */
 .artist-image-caption {
@@ -17,10 +33,30 @@
   width: 100px;
   border-radius: 50%;
 }
-.flex-container {
-  display: flex;
+
+/* Latest English Section */
+.latest-english-image {
+  height: 100px;
+  width: 100px;
+  border-radius: 10px;
 }
-.flex-child {
-  flex: 1;
-  margin: 10px;
+.latest-english-caption {
+  font-size: 15px;
+  font-weight: bold;
+  text-align: left;
+}
+.latest-english-sub-caption {
+}
+/* Latest Hindi Section */
+.latest-hindi-image {
+  height: 100px;
+  width: 100px;
+  border-radius: 10px;
+}
+.latest-hindi-caption {
+  font-size: 15px;
+  font-weight: bold;
+  text-align: left;
+}
+.latest-hindi-sub-caption {
 }
