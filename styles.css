@@ -14,8 +14,7 @@
 }
 .artist {
   text-decoration: none;
-  transition: color 0.5s;
-  transition: border-bottom 1s;
+  transition: color 0.5s, border-bottom 4s;
 }
 .artist:hover {
   color: grey;
@@ -33,7 +32,67 @@
   width: 100px;
   border-radius: 50%;
 }
-
+/* Stations Section */
+.stations {
+  background-color: grey;
+}
+.stations h5 {
+  font-size: 15px;
+  text-align: center;
+  color: white;
+}
+#station {
+  background-image: url(https://cdn.pixabay.com/photo/2018/08/27/10/11/radio-cassette-3634616__480.png);
+  background-size: cover;
+}
+#love {
+  background-image: url(https://cdn.pixabay.com/photo/2015/12/19/20/32/paper-1100254__340.jpg);
+  border-radius: 50%;
+  background-size: cover;
+}
+#retro {
+  background-image: url(https://cdn.pixabay.com/photo/2016/01/09/18/27/camera-1130731__340.jpg);
+  border-radius: 50%;
+  background-size: cover;
+}
+#chill {
+  background-image: url(https://cdn.pixabay.com/photo/2017/08/06/07/07/tea-2589747__340.jpg);
+  border-radius: 50%;
+  background-size: cover;
+}
+#workout {
+  background-image: url(https://cdn.pixabay.com/photo/2016/03/27/23/00/weight-lifting-1284616__340.jpg);
+  border-radius: 50%;
+  background-size: cover;
+}
+#rock {
+  background-image: url(https://cdn.pixabay.com/photo/2016/11/19/13/57/drum-set-1839383__340.jpg);
+  border-radius: 50%;
+  background-size: cover;
+}
+#pop {
+  background-image: url(https://cdn.pixabay.com/photo/2016/08/10/20/52/mixing-1584267__340.jpg);
+  border-radius: 50%;
+  background-size: cover;
+}
+/* Themes Section */
+.theme h4 {
+  font-size: 25px;
+  text-align: center;
+  color: white;
+}
+#party {
+  background-image: url(https://cdn.pixabay.com/photo/2015/11/22/19/04/crowd-1056764__340.jpg);
+  background-size: 250px 100px;
+}
+#electronic {
+  background-image: url(https://cdn.pixabay.com/photo/2017/08/04/20/10/dj-2581269__340.jpg);
+  background-size: 250px 100px;
+}
+#roadtrip {
+  background-image: url(https://cdn.pixabay.com/photo/2016/11/18/15/58/vw-1835506__340.jpg);
+  background-size: 250px 100px;
+}
 /* Latest English Section */
 .latest-english-image {
   height: 100px;
