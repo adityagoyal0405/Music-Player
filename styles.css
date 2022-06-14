@@ -1,4 +1,7 @@
 /* Commom */
+body {
+  background-color: lightgrey;
+}
 .div-heading {
   font-size: 25px;
   font-weight: bold;
@@ -20,8 +23,64 @@
   color: grey;
   border-bottom: 1px solid black;
 }
+/* Header */
+.player-icon {
+  margin-top: 0px;
+  margin-right: 0px;
+}
+.player-icon img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+.music-player {
+  margin-left: -5px;
+}
+
+.search {
+  margin-left: 400px;
+}
+.profile {
+  margin-left: -50px;
+  margin-top: 0px;
+}
+.profile img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+.top-bar input[type="text"] {
+  border: none;
+}
+/* Latest release section */
+.latest-release {
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.latest-release img {
+  height: 100px;
+  width: 100px;
+  border-radius: 10px;
+}
+.latest-release-song p {
+  margin-top: -2px;
+}
+.latest-release-song h4 {
+  margin-bottom: 0px;
+}
+/* .latest-release-song {
+  justify-content: space-between;
+} */
+.latest-release-icon {
+  justify-content: flex-end;
+}
 
 /* Popular Artists Section */
+.popular-artists {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
 .artist-image-caption {
   font-size: 15px;
   font-weight: bold;
@@ -35,6 +94,8 @@
 /* Stations Section */
 .stations {
   background-color: grey;
+  margin-bottom: 30px;
+  margin-top: 30px;
 }
 .stations h5 {
   font-size: 15px;
@@ -81,6 +142,10 @@
   text-align: center;
   color: white;
 }
+.theme h4:hover {
+  font-size: 28px;
+  color: grey;
+}
 #party {
   background-image: url(https://cdn.pixabay.com/photo/2015/11/22/19/04/crowd-1056764__340.jpg);
   background-size: 250px 100px;
@@ -118,4 +183,20 @@
   text-align: left;
 }
 .latest-hindi-sub-caption {
+}
+/* Queue section */
+.queue-song img {
+  height: 40px;
+  width: 40px;
+  border-radius: 5px;
+}
+.queue p {
+  margin-top: -3px;
+  margin-left: -20px;
+  font-size: 14px;
+}
+.queue h4 {
+  margin-bottom: 1px;
+  margin-top: 0px;
+  margin-left: -20px;
 }

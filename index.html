@@ -2,6 +2,10 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <script
+      src="https://kit.fontawesome.com/bf1a9648ca.js"
+      crossorigin="anonymous"
+    ></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="styles.css" />
@@ -9,32 +13,117 @@
   </head>
 
   <body>
-    <header></header>
+    <header>
+      <div class="flex-container top-bar">
+        <div class="flex-child player-icon">
+          <img
+            src="https://cdn.pixabay.com/photo/2017/11/10/05/34/play-2935460__340.png"
+            alt=""
+          />
+        </div>
+        <div class="flex-child music-player">
+          Music <br />
+          Player
+        </div>
+
+        <div class="flex-child">
+          Favourites
+        </div>
+        <div class="flex-child search">
+          <form>
+            <input type="text" placeholder="Search" id="name" name="search" />
+          </form>
+        </div>
+        <div class="flex-child bell-icon">
+          <i class="fa-solid fa-bell fa-lg"></i>
+        </div>
+        <div class="flex-child profile">
+          <img
+            src="https://cdn.pixabay.com/photo/2015/05/31/13/40/book-791824__340.jpg"
+            alt="Profile pic"
+          />
+        </div>
+      </div>
+    </header>
     <main>
       <div class="flex-container">
         <div class="flex-child">
           <div class="favourites"></div>
+
           <div class="queue"></div>
           <h3 class="div-heading">Latest Release</h3>
-          <div class="latest-release"></div>
+          <div class="flex-container latest-release">
+            <div class="flex-child flex-container latest-release-song">
+              <div class="flex-child latest-release-pic">
+                <img
+                  src="https://cdn.pixabay.com/photo/2016/08/12/20/14/river-1589616__340.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="flex-child">
+                <h4>Willow</h4>
+                <a href="" class="artist"> <p>Taylor Swift</p></a>
+              </div>
+              <div class="flex-child latest-release-icon">
+                <i class="fa-solid fa-ellipsis"></i>
+              </div>
+            </div>
+            <div class="flex-child flex-container latest-release-song">
+              <div class="flex-child latest-release-pic">
+                <img
+                  src="https://cdn.pixabay.com/photo/2016/08/12/20/14/river-1589616__340.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="flex-child">
+                <h4>London Boy</h4>
+                <a href="" class="artist"> <p>Taylor Swift</p></a>
+              </div>
+              <div class="flex-child latest-release-icon">
+                <i class="fa-solid fa-ellipsis"></i>
+              </div>
+            </div>
+            <div class="flex-child flex-container latest-release-song">
+              <div class="flex-child latest-release-pic">
+                <img
+                  src="https://cdn.pixabay.com/photo/2016/08/12/20/14/river-1589616__340.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="flex-child">
+                <h4>Paper Rings</h4>
+                <a href="" class="artist"> <p>Taylor Swift</p></a>
+              </div>
+              <div class="flex-child latest-release-icon">
+                <i class="fa-solid fa-ellipsis"></i>
+              </div>
+            </div>
+            <div class="flex-child flex-container latest-release-song">
+              <div class="flex-child latest-release-pic">
+                <img
+                  src="https://cdn.pixabay.com/photo/2016/08/12/20/14/river-1589616__340.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="flex-child">
+                <h4>End Game</h4>
+                <a href="" class="artist"> <p>Taylor Swift</p></a>
+              </div>
+              <div class="flex-child latest-release-icon">
+                <i class="fa-solid fa-ellipsis"></i>
+              </div>
+            </div>
+          </div>
           <h3 class="div-heading">Popular Artists</h3>
           <div class="flex-container popular-artists">
             <div class="flex-child">
-              <img
-                class="artist-image"
-                src="https://cdn.pixabay.com/photo/2022/06/08/12/36/music-7250414__480.png"
-                alt="Ed Sheeran"
-              />
+              <img class="artist-image" src="edsheeran.jfif" alt="Ed Sheeran" />
               <a href="" class="artist">
                 <figcaption class="artist-image-caption">Ed Sheeran</figcaption>
               </a>
             </div>
             <div class="flex-child">
-              <img
-                class="artist-image"
-                src="https://cdn.pixabay.com/photo/2021/02/25/12/42/ariana-grande-6049003__340.jpg"
-                alt="Ariana Grande"
-              />
+              <img class="artist-image" src="ariana.png" alt="Ariana Grande" />
               <a href="" class="artist">
                 <figcaption class="artist-image-caption">
                   Ariana Grande
@@ -42,44 +131,44 @@
               </a>
             </div>
             <div class="flex-child">
-              <img
-                class="artist-image"
-                src="https://cdn.pixabay.com/photo/2020/10/28/23/40/katy-perry-5694824__340.jpg"
-                alt="Katy Perry"
-              />
+              <img class="artist-image" src="dualipa.jpg" alt="Dua Lipa" />
               <a href="" class="artist">
-                <figcaption class="artist-image-caption">Katy Perry</figcaption>
+                <figcaption class="artist-image-caption">Dua Lipa</figcaption>
               </a>
             </div>
             <div class="flex-child">
               <img
                 class="artist-image"
-                src="https://cdn.pixabay.com/photo/2022/03/13/04/28/singer-7065251__340.jpg"
-                alt="Zayn Malik"
-              />
-              <a href="" class="artist">
-                <figcaption class="artist-image-caption">Zayn Malik</figcaption>
-              </a>
-            </div>
-            <div class="flex-child">
-              <img
-                class="artist-image"
-                src="https://cdn.pixabay.com/photo/2013/07/12/17/01/bob-marley-151687__340.png"
-                alt="Bob Marley"
-              />
-              <a href="" class="artist">
-                <figcaption class="artist-image-caption">Bob Marley</figcaption>
-              </a>
-            </div>
-            <div class="flex-child">
-              <img
-                class="artist-image"
-                src="https://cdn.pixabay.com/photo/2021/02/01/17/44/selena-gomez-5971439__480.jpg"
-                alt="Selena Gomez"
+                src="onedirection.jpg"
+                alt="One Direction"
               />
               <a href="" class="artist">
                 <figcaption class="artist-image-caption">
-                  Selena Gomez
+                  One Direction
+                </figcaption>
+              </a>
+            </div>
+            <div class="flex-child">
+              <img
+                class="artist-image"
+                src="taylorswift.png"
+                alt="Taylor Swift"
+              />
+              <a href="" class="artist">
+                <figcaption class="artist-image-caption">
+                  Taylor Swift
+                </figcaption>
+              </a>
+            </div>
+            <div class="flex-child">
+              <img
+                class="artist-image"
+                src="imaginedragons.jpg"
+                alt="Imagine Dragons"
+              />
+              <a href="" class="artist">
+                <figcaption class="artist-image-caption">
+                  Imagine Dragons
                 </figcaption>
               </a>
             </div>
@@ -275,8 +364,181 @@
             </div>
           </div>
         </div>
-        <div class="flex-child">
+        <div class="flex-child queue">
           <h3 class="div-heading">Queue</h3>
+
+          <ol class="queue-list">
+            <li class="queue-song">
+              <div class="flex-container">
+                <div class="flex-child">
+                  <img
+                    src="https://cdn.pixabay.com/photo/2014/09/14/18/04/dandelion-445228__340.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="flex-child">
+                  <h4>In the End</h4>
+                  <a href="" class="artist"> <p>Linkin Park</p></a>
+                </div>
+                <div class="flex-child">
+                  <i class="fa-regular fa-heart"></i>
+                </div>
+              </div>
+            </li>
+            <li class="queue-song">
+              <div class="flex-container">
+                <div class="flex-child">
+                  <img
+                    src="https://cdn.pixabay.com/photo/2015/12/01/20/28/road-1072821__340.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="flex-child">
+                  <h4>Perfect</h4>
+                  <a href="" class="artist"> <p>One direction</p></a>
+                </div>
+                <div class="flex-child">
+                  <i class="fa-regular fa-heart"></i>
+                </div>
+              </div>
+            </li>
+            <li class="queue-song">
+              <div class="flex-container">
+                <div class="flex-child">
+                  <img
+                    src="https://cdn.pixabay.com/photo/2013/04/04/12/34/mountains-100367__340.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="flex-child">
+                  <h4>Thunder</h4>
+                  <a href="" class="artist"><p>Imagine Dragons</p></a>
+                </div>
+                <div class="flex-child">
+                  <i class="fa-regular fa-heart"></i>
+                </div>
+              </div>
+            </li>
+            <li class="queue-song">
+              <div class="flex-container">
+                <div class="flex-child">
+                  <img
+                    src="https://cdn.pixabay.com/photo/2014/09/14/18/04/dandelion-445228__340.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="flex-child">
+                  <h4>Faded</h4>
+                  <a href="" class="artist"><p>Alan Walker</p></a>
+                </div>
+                <div class="flex-child">
+                  <i class="fa-regular fa-heart"></i>
+                </div>
+              </div>
+            </li>
+            <li class="queue-song">
+              <div class="flex-container">
+                <div class="flex-child">
+                  <img
+                    src="https://cdn.pixabay.com/photo/2015/12/01/20/28/road-1072821__340.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="flex-child">
+                  <h4>Hallucinate</h4>
+                  <a href="" class="artist"><p>Dua Lipa</p></a>
+                </div>
+                <div class="flex-child">
+                  <i class="fa-regular fa-heart"></i>
+                </div>
+              </div>
+            </li>
+            <li class="queue-song">
+              <div class="flex-container">
+                <div class="flex-child">
+                  <img
+                    src="https://cdn.pixabay.com/photo/2013/04/04/12/34/mountains-100367__340.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="flex-child">
+                  <h4>Cradles</h4>
+                  <a href="" class="artist"> <p>Sub Urban</p></a>
+                </div>
+                <div class="flex-child">
+                  <i class="fa-regular fa-heart"></i>
+                </div>
+              </div>
+            </li>
+            <li class="queue-song">
+              <div class="flex-container">
+                <div class="flex-child">
+                  <img
+                    src="https://cdn.pixabay.com/photo/2014/09/14/18/04/dandelion-445228__340.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="flex-child">
+                  <h4>Blank Space</h4>
+                  <a href="" class="artist"> <p>Taylor Swift</p></a>
+                </div>
+                <div class="flex-child">
+                  <i class="fa-regular fa-heart"></i>
+                </div>
+              </div>
+            </li>
+            <li class="queue-song">
+              <div class="flex-container">
+                <div class="flex-child">
+                  <img
+                    src="https://cdn.pixabay.com/photo/2015/12/01/20/28/road-1072821__340.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="flex-child">
+                  <h4>I like me better</h4>
+                  <a href="" class="artist"> <p>Lauv</p></a>
+                </div>
+                <div class="flex-child">
+                  <i class="fa-regular fa-heart"></i>
+                </div>
+              </div>
+            </li>
+            <li class="queue-song">
+              <div class="flex-container">
+                <div class="flex-child">
+                  <img
+                    src="https://cdn.pixabay.com/photo/2013/04/04/12/34/mountains-100367__340.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="flex-child">
+                  <h4>Criminal</h4>
+                  <a href="" class="artist"> <p>Britney Spears</p> </a>
+                </div>
+                <div class="flex-child">
+                  <i class="fa-regular fa-heart"></i>
+                </div>
+              </div>
+            </li>
+            <li class="queue-song">
+              <div class="flex-container">
+                <div class="flex-child">
+                  <img
+                    src="https://cdn.pixabay.com/photo/2014/09/14/18/04/dandelion-445228__340.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="flex-child">
+                  <h4>Back to you</h4>
+                  <a href="" class="artist"><p>Selena Gomez</p></a>
+                </div>
+                <div class="flex-child">
+                  <i class="fa-regular fa-heart"></i>
+                </div>
+              </div>
+            </li>
+          </ol>
         </div>
       </div>
     </main>
